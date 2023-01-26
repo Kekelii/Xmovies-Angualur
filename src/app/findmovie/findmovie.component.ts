@@ -5,6 +5,8 @@ import { MoviesService } from '../movies.service';
   templateUrl: './findmovie.component.html',
   styleUrls: ['./findmovie.component.css']
 })
+/* The class has a property called list which is an array of objects. Each object has an id, date, name
+and genre. The list property is initialized to undefined */
 export class FindmovieComponent {
     list:{id:number,date:string,name:string,genre:string}[]| undefined |null
 

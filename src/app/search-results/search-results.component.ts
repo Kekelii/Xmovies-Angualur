@@ -7,6 +7,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './search-results.component.html',
   styleUrls: ['./search-results.component.css']
 }) 
+/* This class is a component that is used to display the search results of a movie */
 export class SearchResultsComponent {
   list:{id:number,date:string,name:string,genre:string}[]| undefined | null
 

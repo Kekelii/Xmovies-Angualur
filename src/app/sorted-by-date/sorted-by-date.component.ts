@@ -6,6 +6,9 @@ import { MoviesService } from '../movies.service';
   templateUrl: './sorted-by-date.component.html',
   styleUrls: ['./sorted-by-date.component.css']
 })
+
+
+/* It's a component that gets a list of movies from a service and displays them */
 export class SortedByDateComponent {
   list:{id:number,date:string,name:string,genre:string}[]| undefined | null
 
