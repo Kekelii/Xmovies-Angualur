@@ -1,0 +1,65 @@
+{
+    "movies": [{
+            "id": 1,
+            "name": "The Shawshank Redemption",
+            "genre": "Drama",
+            "date": "20 Sep 1994"
+        },
+        {
+            "id": 2,
+            "name": "The Godfather",
+            "genre": "Crime",
+            "date": "24 Mar 1972"
+        },
+        {
+            "id": 3,
+            "name": "The Dark Knight",
+            "genre": "Action",
+            "date": "18 Jul 2008"
+        },
+        {
+            "id": 4,
+            "name": "Pulp Fiction",
+            "genre": "Crime",
+            "date": "14 Oct 1994"
+        },
+        {
+            "id": 5,
+            "name": "The Lord of the Rings: The Return of the King",
+            "genre": "Fantasy",
+            "date": "17 Dec 2003"
+        },
+        {
+            "id": 6,
+            "name": "The Good, the Bad and the Ugly",
+            "genre": "Western",
+            "date": "29 Dec 1966"
+        },
+        {
+            "id": 7,
+            "name": "Forrest Gump",
+            "genre": "Comedy-drama",
+            "date": "06 Jul 1994"
+        },
+        {
+            "id": 8,
+            "name": "Inception",
+            "genre": "Science fiction",
+            "date": "16 Jul 2010"
+        },
+        {
+            "id": 9,
+            "name": "The Matrix",
+            "genre": "Science fiction",
+            "date": "31 Mar 1999"
+        },
+        {
+            "id": 10,
+            "name": "Goodfellas",
+            "genre": "Crime",
+            "date": "21 Sep 1990"
+        }
+    ]
+
+
+}

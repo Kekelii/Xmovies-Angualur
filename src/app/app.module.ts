@@ -11,6 +11,12 @@ import { MovieComponent } from './movie/movie.component';
 import { StageComponent } from './stage/stage.component';
 import { EditMovieComponent } from './edit-movie/edit-movie.component';
 import { AddmovieComponent } from './addmovie/addmovie.component';
+import { HomeComponent } from './home/home.component';
+import { FindmovieComponent } from './findmovie/findmovie.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { SortedByDateComponent } from './sorted-by-date/sorted-by-date.component';
+import { SortbytitleComponent } from './sortbytitle/sortbytitle.component';
+import { SearchResultsComponent } from './search-results/search-results.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +28,18 @@ import { AddmovieComponent } from './addmovie/addmovie.component';
     MovieComponent,
     StageComponent,
     EditMovieComponent,
-    AddmovieComponent
+    AddmovieComponent,
+    HomeComponent,
+    FindmovieComponent,
+    SortedByDateComponent,
+    SortbytitleComponent,
+    SearchResultsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

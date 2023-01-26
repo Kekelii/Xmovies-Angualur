@@ -1,7 +1,12 @@
 <div class="flex justify-around">
-    <div class=" rounded-md w-80 bg-blue-700 h-16 flex justify-center items-center text-white">Add Movie</div>
-    <div class="w-80 rounded-md bg-blue-700 h-16 flex justify-center items-center text-white">Find Movie</div>
-    <div class="w-80 rounded-md bg-blue-700 h-16 flex justify-center items-center text-white">All Movies</div>
-    <navigationFilter/>
+    <a href="/addmovie">
+        <div class=" rounded-md w-80 bg-blue-700 h-16 flex justify-center items-center text-white">Add Movie</div>
+    </a>
+    <a href="/findmovie">
+        <div class="w-80 rounded-md bg-blue-700 h-16 flex justify-center items-center text-white">Find Movie</div>
+    </a>
+    <a href="/">
+        <div class="w-80 rounded-md bg-blue-700 h-16 flex justify-center items-center text-white">All Movies</div>
+    </a>
+    <navigationFilter (title)="titleEmit()" (date)="dateEmit()"></navigationFilter>
 </div>
-<search/>

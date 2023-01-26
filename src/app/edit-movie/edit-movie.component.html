@@ -1,11 +1,12 @@
-<div class="font-bold text-2xl">Edit New Movie</div>
+<Stage>
+    <div class="font-bold text-2xl">Edit New Movie</div>
+    <form class=" mt-5" [formGroup]="editmovie">
 
-<form class=" mt-5">
+        <input type="text" class="addmovie mb-4 h-16 w-3/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder={{this.name}} formControlName="name" />
+        <input type="text" class="addmovie mb-4 h-16 w-3/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder={{this.released}} formControlName="released" />
+        <input type="text" class="addmovie mb-4 h-16 w-3/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder={{this.genre}} formControlName="category" />
 
-    <input type="text" class="addmovie mb-4 h-16 w-3/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder="Enter Movie Tittle" />
-    <input type="text" class="addmovie mb-4 h-16 w-3/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder="Release Year:DDD/MM/YYYY" />
-    <input type="text" class="addmovie mb-4 h-16 w-3/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder="Category" />
+        <button class="w-96 mt-4 rounded-md bg-blue-700 h-16 flex justify-center items-center text-white" (click)="save()">save</button>
 
-    <button class="w-96 mt-4 rounded-md bg-blue-700 h-16 flex justify-center items-center text-white">save</button>
-
-</form>
+    </form>
+</Stage>

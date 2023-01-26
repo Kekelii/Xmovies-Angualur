@@ -1,7 +1,7 @@
-<form class="flex justify-around mt-5">
+<form class="flex justify-around mt-5" [formGroup]="searchmovie">
 
-    <input type="text" class="search h-16 w-4/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder="Search movie by tittle" />
-
-    <button class="w-52  rounded-md bg-blue-700 h-16 flex justify-center items-center text-white">search</button>
-
+    <input type="text" class="search h-16 w-4/5 bg-gray-300 pl-10 rounded-xl border-solid border-black" placeholder="Search movie by tittle" formControlName="name" />
+    <a href="/search">
+        <button class="w-52  rounded-md bg-blue-700 h-16 flex justify-center items-center text-white" (click)="OnSubmit()">search</button>
+    </a>
 </form>
